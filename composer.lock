@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "61c0c1947bc6b187fa9d783112714540",
+    "content-hash": "cf1e5597977eb2a12ce68d7a1475fd62",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2259,6 +2259,63 @@
             "description": "Symfony Doctrine Bridge",
             "homepage": "https://symfony.com",
             "time": "2018-04-26T16:12:06+00:00"
+        },
+        {
+            "name": "symfony/dotenv",
+            "version": "v4.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dotenv.git",
+                "reference": "afb6923923e22874dac20bd042167ccb8df1d158"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/afb6923923e22874dac20bd042167ccb8df1d158",
+                "reference": "afb6923923e22874dac20bd042167ccb8df1d158",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "require-dev": {
+                "symfony/process": "~3.4|~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Dotenv\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Registers environment variables from a .env file",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2018-01-03T17:15:19+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -5061,74 +5118,17 @@
             "time": "2018-03-19T22:35:49+00:00"
         },
         {
-            "name": "symfony/dotenv",
-            "version": "v4.0.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/dotenv.git",
-                "reference": "afb6923923e22874dac20bd042167ccb8df1d158"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dotenv/zipball/afb6923923e22874dac20bd042167ccb8df1d158",
-                "reference": "afb6923923e22874dac20bd042167ccb8df1d158",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3"
-            },
-            "require-dev": {
-                "symfony/process": "~3.4|~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Dotenv\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Registers environment variables from a .env file",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "dotenv",
-                "env",
-                "environment"
-            ],
-            "time": "2018-01-03T17:15:19+00:00"
-        },
-        {
             "name": "symfony/maker-bundle",
-            "version": "v1.4.3",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/maker-bundle.git",
-                "reference": "45fe88c2260f95b20d161dba94b488181180188f"
+                "reference": "bb0485a3b2eecc561eff735109316677e18fb1d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/45fe88c2260f95b20d161dba94b488181180188f",
-                "reference": "45fe88c2260f95b20d161dba94b488181180188f",
+                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/bb0485a3b2eecc561eff735109316677e18fb1d1",
+                "reference": "bb0485a3b2eecc561eff735109316677e18fb1d1",
                 "shasum": ""
             },
             "require": {
@@ -5180,7 +5180,7 @@
                 "scaffold",
                 "scaffolding"
             ],
-            "time": "2018-04-22T00:44:55+00:00"
+            "time": "2018-05-17T19:26:29+00:00"
         },
         {
             "name": "symfony/phpunit-bridge",
